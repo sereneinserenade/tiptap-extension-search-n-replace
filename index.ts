@@ -60,7 +60,7 @@ function processSearches(doc: ProsemirrorNode, searchTerm: RegExp, searchResultC
 
   if (!searchTerm) return { decorationsToReturn: DecorationSet.empty, results: [] }
 
-  doc?.descendants((node, pos) => {
+  doc && doc.descendants((node, pos) => {
     if (node.isText) {
       if (textNodesWithPosition[index]) {
         textNodesWithPosition[index] = {
