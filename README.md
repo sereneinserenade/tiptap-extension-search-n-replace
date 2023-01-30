@@ -1,3 +1,7 @@
+> **Warning** : deprecated, go to https://github.com/sereneinserenade/tiptap-search-n-replace-demo/ for the latest version
+
+---
+
 # tiptap-extension-search-n-replace
 Tiptap Search&amp;Replace extension 
 
